@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display);
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.first-box{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+    color: white;
+  display:grid;
+  border-radius:10px 0 0 10px;
+}
+.second-box{
+    background-color:hsl(184, 100%, 22%);
+    padding:2em;
+    width: 100%;
+    color: white;
+  display:grid;
+}
+.third-box{
+    background-color:hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+    color: white;
+  display:grid;
+  border-radius:0px 10px 10px 0px;
+}
+.luxury-buttons{
+    text-decoration: none;
+  color:hsl(179, 100%, 13%);
+}
+.style-luxury{
+    border-radius: 30px;
+    padding: 10px;
+  width:100px;
+  justify-content:;
+}
+.sedans-buttons{
+    text-decoration: none;
+  color:hsl(31, 77%, 52%)
+}
+.style-sedans{
+    border-radius: 30px;
+    padding: 10px;
+  width:100px;
+  
+}
+.suv-buttons{
+    text-decoration: none;
+    color:hsl(184, 100%, 22%);
+}
+.style-suv{
+    border-radius: 30px;
+    padding: 10px;
+  width:100px;
+}
+@media only screen and (max-width:768px){
+  .box-container{
+    width:100%;
+    display:block;
+    margin-top:10px;
+    margin-bottom:100px;
+    padding:3px 5px;
+  }
+  .btn-grid{
+    position:absolute;
+    bottom:600px;
+  }
+}
+.grid-btn{
+ place-items:center;
+  border-radius:8px;
+width:100%;
+  padding:20px 40px;
+  background-color:#1aac07;
+  text-decoration: none;
+  font-family: serif;
+  margin-bottom: 40px;
+  
+
+.grid-btn:hover{
+  opacity: 10;
+  transition: 1s ease-in-out;
+}
